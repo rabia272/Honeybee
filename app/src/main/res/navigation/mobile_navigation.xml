@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_homePageCustomer">
+    <fragment
+        android:id="@+id/nav_homePageCustomer"
+        android:name="org.iiui.honeybee.ui.Customer.CustomerHomePage"
+        android:label="@string/Home"
+        tools:layout="@layout/fragment_homepage" />
+
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="org.iiui.honeybee.ui.Profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="org.iiui.honeybee.ui.Orders.OrderFragment"
+        android:label="@string/menu_orders"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_promocode"
+        android:name="org.iiui.honeybee.ui.Promocode.PromocodeFragment"
+        android:label="@string/menu_promocode"
+        tools:layout="@layout/fragment_promocode" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="org.iiui.honeybee.ui.Share.ShareFragment"
+        android:label="@string/Share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="org.iiui.honeybee.ui.ContactUs.ContactUsFragment"
+        android:label="@string/contact__us"
+        tools:layout="@layout/fragment_contact_us" />
+
+    <fragment
+        android:id="@+id/nav_Logout"
+        android:name="org.iiui.honeybee.ui.Logout.LogoutFragment"
+        android:label="@string/logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>
